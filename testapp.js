@@ -10,7 +10,7 @@ function testApp(){
     var headbuttdiv = document.createElement('div');
     var headtextdiv = document.createElement('div');
     var appnumber = Math.random();
-    var appsname = "VidPlay";
+    var appsname = "TestApp";
     app.scroll = false;
     appbody.scroll = true;
     tasks++;
@@ -25,7 +25,7 @@ function testApp(){
     app.className = 'app';
     apphead.className = 'appheader';
     appheadtext.className = 'appheadtxt';
-    appheadtext.innerText = vidtitle;
+    appheadtext.innerText = "TestApp";
     close.type = 'image';
     close.id = "close"
     close.title = 'Close';
