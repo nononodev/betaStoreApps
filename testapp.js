@@ -87,7 +87,7 @@ function testApp(){
     minimize.onclick = function () {minimizer(appsname + "(" + appnumber + ")")};
 
     var helloword = document.createElement("h1");
-    hellowword.innerText = "Hello word!";
+    helloword.innerText = "Hello word!";
     appbody.appendChild(helloword);
     bringToFront(app.id);
 }
