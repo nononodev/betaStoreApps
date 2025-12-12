@@ -10,7 +10,7 @@ function testApp(){
     var headbuttdiv = document.createElement('div');
     var headtextdiv = document.createElement('div');
     var appnumber = Math.random();
-    var appsname = "TestApp";
+    var appsname = "VidPlay";
     app.scroll = false;
     appbody.scroll = true;
     tasks++;
@@ -25,7 +25,7 @@ function testApp(){
     app.className = 'app';
     apphead.className = 'appheader';
     appheadtext.className = 'appheadtxt';
-    appheadtext.innerText = "TestApp";
+    appheadtext.innerText = appsname;
     close.type = 'image';
     close.id = "close"
     close.title = 'Close';
@@ -86,8 +86,8 @@ function testApp(){
     };
     minimize.onclick = function () {minimizer(appsname + "(" + appnumber + ")")};
 
-    var helloword = document.createElement("h1");
-    helloword.innerText = "Hello word!";
-    appbody.appendChild(helloword);
+    var helloworld = document.createElement("h1");
+    helloworld.innerText = "Hello word!";
+    appbody.appendChild(helloworld);
     bringToFront(app.id);
 }
